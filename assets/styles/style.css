@@ -1,0 +1,131 @@
+body {
+    background-color: white;
+    padding: 0 80px;
+}
+
+.headerLine {
+    width: 100%;
+    height: 70px;
+}
+
+.Logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.HeaderIcons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -45px;
+    margin-right: 150px;
+}
+
+.TextSet {
+    height: 30px;
+    width: 30px;
+}
+
+.Search {
+    margin-right: 70px;
+}
+
+.Notification {
+    margin-right: 70px;
+}
+.Menu{
+    margin-right: -20px;
+}
+.Picture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.FirstPic {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: -10;
+    filter: blur(5px);
+}
+
+.SecondPic {
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+}
+
+.Question {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background-color: lightseagreen;
+    margin-top: 230px;
+    margin-left: 1100px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.QuestionPic {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.QuestionPic2 {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.InfoPart{
+    height: 800px;
+    width: 350px;
+    background-color: #ec4980;
+    margin-top: 20px;
+    margin-left: 86px;
+}
+.UserAvatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 75px;
+}
+
+
+.BottomRow{
+    position: relative;
+    width: 350px;
+    height: 40px;
+    background-color: #cf3b6d;
+    margin-top: -40px;
+    margin-left: 86px;
+}
+.BottomText{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    top:-10px;
+    left: 40px;
+}
+.InfoPart > h2{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
