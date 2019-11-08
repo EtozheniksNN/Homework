@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    padding: 0 80px;
+    padding: 0 200px;
 }
 
 .headerLine {
@@ -11,7 +11,7 @@ body {
 .Logo {
     height: 50px;
     width: 50px;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-top: 10px;
 }
 
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-top: -45px;
-    margin-right: 150px;
+    margin-right: 120px;
 }
 
 .TextSet {
@@ -67,7 +67,7 @@ body {
     height: 50px;
     background-color: lightseagreen;
     margin-top: 230px;
-    margin-left: 1100px;
+    margin-left: 970px;
     font-family: 'Lato', sans-serif;
     border-radius: 25px;
     text-transform: uppercase;
@@ -100,7 +100,7 @@ body {
     width: 350px;
     background-color: #ec4980;
     margin-top: 20px;
-    margin-left: 86px;
+    margin-left: 74px;
 }
 
 .UserAvatar {
@@ -118,7 +118,7 @@ body {
     height: 40px;
     background-color: #cf3b6d;
     margin-top: -40px;
-    margin-left: 86px;
+    margin-left: 74px;
 }
 
 .BottomText {
@@ -293,7 +293,7 @@ body {
 }
 
 hr {
-    width: 1140px;
+    width: 913px;
     margin-left: 500px;
     opacity: 0.5;
 }
@@ -341,6 +341,23 @@ hr {
 .shareR {
     margin-right: 25px;
 }
-.shareRR{
+
+.shareRR {
     margin-right: 20px;
+}
+
+.SecondTable {
+    border: 1px solid grey;
+    width: 400px;
+    height: 300px;
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+
+.inSecFooter {
+    background-color: lightgrey;
+    width: 400px;
+    height: 40px;
+    margin-top: 260px;
+
 }
